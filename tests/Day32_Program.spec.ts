@@ -55,5 +55,6 @@ test("Launching a chromium binary", async () => {
 
 test('Launching chrome by using fixture', async ({page})=>{
     await page.goto("https://www.amazon.in/") //direct programming
+    //expect(20).toBe(30) //for retry check
     })
 
